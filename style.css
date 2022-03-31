@@ -103,6 +103,7 @@ h3{
     margin:auto ;
     text-align: center;
     padding: 10px;
+    font-size:12px;
     border: 10px;
     border-radius: 100px;
     background-color: rgb(87, 148, 127);
@@ -131,6 +132,17 @@ h3{
 }
 .footer{
    padding: 5px;
- 
     font-size: 15px;
+}
+.contact{
+    animation-name:pingpong;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes pingpong {
+    from{padding: 10px;}
+    to{padding: 20px;}    
+    from{font-size: 12px;}
+    to{font-size: 16px;}  
 }
