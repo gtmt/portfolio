@@ -5,6 +5,7 @@ body{
 .navbar{
     display: flex;
     justify-content: flex-end;
+    text-decoration:none;
     
 }
 .nav{
@@ -107,6 +108,7 @@ h3{
     border: 10px;
     border-radius: 100px;
     background-color: rgb(87, 148, 127);
+    text-decoration:none;
     
 }
 .contact:hover{
